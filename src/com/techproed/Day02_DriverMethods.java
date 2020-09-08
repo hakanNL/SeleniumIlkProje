@@ -8,6 +8,7 @@ public class Day02_DriverMethods {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "C:/Users/hknbe/Documents/selenium dependencies/drivers/chromedriver.exe");
         WebDriver webDriver = new ChromeDriver();
+
         webDriver.get("https://www.google.com");
         webDriver.navigate().to("https://www.amazon.com");
 
